@@ -1,0 +1,32 @@
+.menu-bar{
+    background: whitesmoke; 
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: #fff;
+padding: 10px 15px;
+
+}
+.active, .menu-bar ul li:hover
+{
+ background: red;
+ border-radius: 3px;
+} 

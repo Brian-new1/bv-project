@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+
+}
+.Menu-bar{
+    background: rgb(24, 22, 22);
+   text-align: center;
+
+}  
+.Menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.Menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    height: 0.5%;
+    
+
+}
+.Menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.Menu-bar ul li:hover{
+    background: orange;
+    border-radius: 5px;
+}
+.Menu-bar .fa{
+    margin-right: 8px;
+
+}
+.sub-menu-1{
+    display: none;
+}
+.Menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+.Menu-bar ul li:hover .sub-menu-1 ul{
+     display: block;
+     margin: 10px;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.Menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: orange;
+}
+.fa-user{
+    float: right;
+}
+.logo{
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

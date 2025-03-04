@@ -1,0 +1,60 @@
+body{
+    background-color: whitesmoke;
+}
+.box1{
+    float: right;
+}
+.box2{
+    float: right;
+}
+.box3{
+    float: right;
+}
+.box4{
+    float: right;
+}
+.header1{
+    background-color:white;
+}
+.head2{
+    background-color: white;
+}
+.head3{
+    background-color: white;
+}
+.head4{
+    background-color: white;
+}
+.paragraph{
+    font-size: x-large;
+    word-spacing: 10spx;
+}
+.paragraph1{
+    font-size: x-large;
+    word-spacing: 10spx;
+}
+.paragraph2{
+    font-size: x-large;
+    word-spacing: 10spx;
+}
+.paragraph3{
+    font-size: x-large;
+    word-spacing: 10spx;
+}
+h1{
+ color: orange;
+}
+h4{
+  
+    @media(max-width: 1024px){
+        body{
+            width: 95%;
+        }
+    }
+    @media(max-width: 768px){
+        body{
+            width: 100%;
+            padding: 0 10px;
+        }
+    }  font-size: x-large;
+}

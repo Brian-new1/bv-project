@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charity foundation</title>
+    <link rel="stylesheet" href="claricehelp.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p>The Beginning of a new asset class</p>
+        <h1>Frequently asked questions</h1>
+        <div class="faq">
+            <button class="accordion">
+                what is my name?
+                <i class="fa-solid fa-circle-info"></i>
+            </button>
+            <div class="pannel">
+                <p>I am brian new a member of the tech titans</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                what is my name?
+                <i class="fa-solid fa-circle-info"></i>
+            </button>
+            <div class="pannel">
+                <p>I am brian new a member of the tech titans</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                what is my name?
+                <i class="fa-solid fa-circle-info"></i>
+            </button>
+            <div class="pannel">
+                <p>I am brian new a member of the tech titans</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                what is my name?
+                <i class="fa-solid fa-circle-info"></i>
+            </button>
+            <div class="pannel">
+                <p>I am brian new a member of the tech titans</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var acc= document.getElementsByClassName("accordion");
+        var i;
+        for(i = 0; i < acc.length ; i++){
+            acc[i].addEventListener("click", function (){
+                this.classlist.toggle("active");
+                this.parentElement.classlist.toggle
+                ("active");
+                var pannel = this.nextElementSiblng;
+
+                if(pannel.style.display === "block"){
+                    pannel.style.display = "none";
+                }else{
+                    pannel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>

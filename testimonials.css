@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card__container{
+  padding-block: 5rem;
+  
+}
+
+.card__content{
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.card__article{
+    width: 300px;
+    border-radius: 1.25rem;
+    overflow: hiddem;
+}
+.card__image{
+    position: relative;
+    background-color: red;
+   /* padding-top: 1.5rem;*/
+    margin-bottom: -.75rem;
+}
+.card__data{
+    background-color: lightsalmon;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+

@@ -1,0 +1,38 @@
+.container{
+    background-color: whitesmoke;
+    float: right;
+    margin-right: 10%;
+    margin-top: 3%;
+    padding-right: 10%;
+
+}
+ .tp{
+    color: #000;
+ }
+ .header01{
+    color: orange;
+ }
+ .text1volunteer{
+    float: right;
+ }
+ .volunteersbox{
+    background-color: whitesmoke;
+    padding-right: 30%;
+    
+ }
+ .paragraph{
+    margin-left: 10%;
+    font-size: x-large;
+ }
+ .form{
+    background-color: whitesmoke;
+ }
+ .letter{
+    margin: 5%;
+    margin-right: 100%;
+    margin-left: 20%;
+ }
+ botton{
+    color: orange;
+ }
+    

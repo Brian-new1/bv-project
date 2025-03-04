@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 75%;
+    margin: auto;
+}
+.wrapper > p,
+.wrapper > h1{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.wrapper >h1{
+    letter-spacing: 3px;
+}
+.accordion{
+    background-color: white;
+    color: rgba(0,0 0,0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.accordion i{
+    font-size: 1.6rem;
+}
+.active, 
+.accordion:hover{
+    background-color: #f1f1f1;
+
+}
+.pannel{
+    padding: 0 2rem 2.5rem 2rem;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display:none ;
+    
+}
+.pannel p{
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.faq{
+    border: 1px solid rgb(0, 0,0, 0.2);
+    margin: 10px 0;
+}
+.faq .active{
+    border: none;
+    
+}
+
+
+
+
+
+<div class="head2">
+ <div class="box2">
+    <p>SOMALIA</p>
+<h1>SOMALIA KEEPS EXPER<br>
+    ENCING FLOOD AND DE<br>ADS</h1>
+     <div class="paragraph1">
+     <p>
+     <p>The ongoing floodings in Somalia</p>
+     <br>causes many famlies to flee for the<br>
+       ir livesleaving them strandedwith no<br>
+        shelter,food or good drinking water<br>
+        Children are dieing of Cholera and m<br>
+        any other pandemics due to he flood</h3>
+     </p><br><br>
+    </p>
+    <button>Donate</button>
+   </p>
+     </div>
+     </div>
+<img src="200.jpg" alt="disaster2" > 
+</div>
+<br>
+<div class="head3">
+ <div class="box3"><br><br>
+ <p>CAMEROON</p>
+<h1>DISASTROUS LAND SLIDES<br>
+     KEEPS OCCURING AT MOUN<br>
+    TANOUS PARTS OF  CAMEROON<br>
+     CAUSES  DEADS AND LOSS OF<br>
+      PROPERTIES</h1><br><br>
+     <div class="paragraph2">
+     <p> We have been assisting families affected<br>
+         by the land slides in Cameroon procided<br>
+          temporary shelters especially for childr<br>
+          en and food suplies water and health fac<br>
+          ilities</p><br><br>
+     <button>Donate </button>
+     </div>
+     </div>
+<img src="300.jpg" alt="screenshot 3.jpg">
+</div>
+</div>
+<br>
+<div class="head4">
+ <div class="box4">
+ <p>GHANA</p>
+<h1>DEVASTATING LANDSLIDES<br>
+     IN GHANA IMPACTING COMMU<br>
+     NITIES AND INFASTRUCTURE</h1><br><br>
+     <div class="paragraph3">
+     <p> We are currently providing immediate relief,<br>
+         such as food, shelter and medical,to those <br>
+         affected we also provide counseling and supp<br>
+         ort and support to affected individual parti<br>
+         cularly children and vulnerable population</p><br><br>
+     <button>Donate </button>
+     </div>
+     </div>
+<img src="400.jpg" alt="screenshot 4.jpg">
+</div><br><br>
